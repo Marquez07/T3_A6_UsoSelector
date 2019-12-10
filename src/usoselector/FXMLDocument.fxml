@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import selectordeslizamiento.Selector?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="usoselector.FXMLDocumentController">
+   <children>
+      <Label layoutX="267.0" layoutY="81.0" text="SELECTORES" />
+      <Label fx:id="seleccion" layoutX="214.0" layoutY="354.0" prefHeight="17.0" prefWidth="175.0" text="No has pulsado ningun selector" />
+      <Selector fx:id="s1" layoutX="227.0" layoutY="149.0" onAction="#sel1" />
+      <Selector fx:id="s2" layoutX="225.0" layoutY="240.0" onAction="#sel2" />
+   </children>
+</AnchorPane>
